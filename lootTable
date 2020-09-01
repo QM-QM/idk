@@ -1,0 +1,1331 @@
+[01Zář2020 03:58:21.254] [modloading-worker-0/INFO] [de.melanx.aiotbotania.AIOTBotania/]: Global loot modifiers registered.
+[01Zář2020 03:58:50.906] [Render thread/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity farlanders:looter
+[01Zář2020 03:58:51.090] [Render thread/INFO] [Bookshelf/]: Registering 10 global loot modifier serializers.
+[01Zář2020 03:59:06.869] [modloading-worker-0/INFO] [Bookshelf/]: Registering 13 loot condition types.
+[01Zář2020 03:59:07.903] [modloading-worker-0/INFO] [ipsis.woot.setup.ModSetup/]: /Users/makar/Library/Application Support/minecraft/woot/loot.json
+[01Zář2020 04:02:52.380] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table darkutils:blocks/slime_crucible_wither
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:54) ~[?:?]
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:35) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:156) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.536] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_armorer
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.643] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/jungle_temple
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.665] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/end_city_treasure
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.716] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_temple
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.810] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/abandoned_mineshaft
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+[01Zář2020 04:02:52.816] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table darkutils:blocks/slime_crucible_green
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:54) ~[?:?]
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:35) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:156) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.839] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/stronghold_corridor
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:37)
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.909] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/buried_treasure
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:37) ~[?:1.7.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:52.972] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/pillager_outpost
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:53.995] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_savanna_house
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.173] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/woodland_mansion
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+[01Zář2020 04:02:54.198] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table darkutils:blocks/slime_crucible_magma
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:54) ~[?:?]
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:35) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:156) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.256] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_toolsmith
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.360] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/nether_bridge
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.607] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_desert_house
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at de.teamlapen.vampirism.core.ModLootTables.onLootLoad(ModLootTables.java:76)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.639] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/stronghold_library
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at de.teamlapen.vampirism.core.ModLootTables.onLootLoad(ModLootTables.java:76) ~[?:1.6.1]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.650] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_weaponsmith
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.682] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/simple_dungeon
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:41)
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.732] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/shipwreck_supply
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:41) ~[?:1.7.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.793] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/shipwreck_treasure
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.879] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_tannery
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.885] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/spawn_bonus_chest
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.907] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_plains_house
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.935] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/desert_pyramid
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:33)
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:54.945] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/underwater_ruin_big
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:33) ~[?:1.7.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+[01Zář2020 04:02:55.082] [Server thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_butcher
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+[01Zář2020 04:02:55.203] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTableManager/]: Found validation problem in {artifacts:chests/campsite_chest}.pools[0].entries[1]: Unknown loot table called minecraft:chests/simple_dungeon
+[01Zář2020 04:02:55.203] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTableManager/]: Found validation problem in {artifacts:chests/campsite_chest}.pools[0].entries[0]: Unknown loot table called minecraft:chests/stronghold_library
+[01Zář2020 04:02:55.205] [Server thread/INFO] [placebo/]: Registered 0 additional loot tables.
+[01Zář2020 04:02:55.793] [Server thread/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement craftandhunt:craftandhunt/bee_chitin: Task Advancement{parentId=craftandhunt:root, display=net.minecraft.advancements.DisplayInfo@32739022, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.command.FunctionObject$CacheableFunction@204cfc7d}, criteria={stone_pickaxe=net.minecraft.advancements.Criterion@11b7bf3a}, requirements=[[stone_pickaxe]]}
+[01Zář2020 04:03:52.923] [Server thread/WARN] [de.teamlapen.vampirism.VampirismMod/]: LootTables -------------------------------
+[01Zář2020 04:03:52.923] [Server thread/WARN] [de.teamlapen.vampirism.VampirismMod/]: LootTables Failed to inject all loottables
+[01Zář2020 04:03:52.923] [Server thread/WARN] [de.teamlapen.vampirism.VampirismMod/]: LootTables -------------------------------
+[01Zář2020 04:04:13.697] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table darkutils:blocks/slime_crucible_wither
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:54) ~[?:?]
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:35) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:156) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:13.833] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_armorer
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:13.996] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/jungle_temple
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:14.027] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/end_city_treasure
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:14.188] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_temple
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:14.332] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/abandoned_mineshaft
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+[01Zář2020 04:04:14.346] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table darkutils:blocks/slime_crucible_green
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:54) ~[?:?]
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:35) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:156) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:14.360] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/stronghold_corridor
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:37)
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:15.106] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/buried_treasure
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:37) ~[?:1.7.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:15.208] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/pillager_outpost
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:15.279] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_savanna_house
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:15.453] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/woodland_mansion
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+[01Zář2020 04:04:15.459] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table darkutils:blocks/slime_crucible_magma
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:54) ~[?:?]
+	at net.minecraft.world.storage.loot.ItemLootEntry$Serializer.func_212829_b_(SourceFile:35) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:156) ~[?:?]
+	at net.minecraft.world.storage.loot.StandaloneLootEntry$Serializer.func_212865_b_(SourceFile:130) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:53) ~[?:?]
+	at net.minecraft.world.storage.loot.LootEntryManager$Serializer.deserialize(SourceFile:41) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:205) ~[?:?]
+	at net.minecraft.world.storage.loot.LootPool$Serializer.deserialize(LootPool.java:202) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:245) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable$Serializer.deserialize(LootTable.java:242) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:824) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:15.512] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_toolsmith
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:15.625] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/nether_bridge
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:16.531] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_desert_house
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at de.teamlapen.vampirism.core.ModLootTables.onLootLoad(ModLootTables.java:76)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:16.568] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/stronghold_library
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at de.teamlapen.vampirism.core.ModLootTables.onLootLoad(ModLootTables.java:76) ~[?:1.6.1]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:16.579] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_weaponsmith
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:16.610] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/simple_dungeon
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:41)
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:16.824] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/shipwreck_supply
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:41) ~[?:1.7.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:16.917] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/shipwreck_treasure
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:17.041] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_tannery
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:17.047] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/spawn_bonus_chest
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:17.061] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_plains_house
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:17.094] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/desert_pyramid
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at epicsquid.mysticalworld.events.LootHandler.onLootLoad(LootHandler.java:27) ~[?:1.15.2-2.0.6]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:33)
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:17.107] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/underwater_ruin_big
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at com.teamabnormals.upgrade_aquatic.core.events.LootEvents.onInjectLoot(LootEvents.java:33) ~[?:1.7.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_376_LootEvents_onInjectLoot_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+		1: ASM: class its_meow.betteranimalsplus.common.CommonEventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		2: ASM: chanceCubes.CCubesCore@217c920e lootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		4: ASM: class com.kashdeya.tinyprogressions.handlers.EventHandler onLootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		5: ASM: class com.teamabnormals.upgrade_aquatic.core.events.LootEvents onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		6: ASM: class artifacts.common.init.LootTables$LootTableEvents onLootTableLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+		10: ASM: class com.teamabnormals.abnormals_core.core.registry.LootInjectionRegistry onInjectLoot(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236)
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236)
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57)
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic)
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652)
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834)
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44)
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22)
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168)
+[01Zář2020 04:04:17.225] [Render thread/ERROR] [net.minecraft.world.storage.loot.LootTableManager/]: Couldn't parse loot table minecraft:chests/village/village_butcher
+	at net.minecraft.world.storage.loot.LootTable.lambda$addPool$2(LootTable.java:236) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTable.addPool(LootTable.java:236) ~[?:?]
+	at artifacts.common.init.LootTables$LootTableEvents.onLootTableLoad(LootTables.java:57) ~[?:1.15.2-2.5.1]
+	at net.minecraftforge.eventbus.ASMEventHandler_401_LootTableEvents_onLootTableLoad_LootTableLoadEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.event.ForgeEventFactory.loadLootTable(ForgeEventFactory.java:652) ~[?:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.lambda$apply$0(LootTableManager.java:46) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:44) ~[?:?]
+	at net.minecraft.world.storage.loot.LootTableManager.func_212853_a_(LootTableManager.java:22) ~[?:?]
+	at jeresources.util.LootTableHelper.getManager(LootTableHelper.java:168) ~[?:0.10.1.77]
+[01Zář2020 04:04:17.321] [Render thread/WARN] [net.minecraft.world.storage.loot.LootTableManager/]: Found validation problem in {artifacts:chests/campsite_chest}.pools[0].entries[1]: Unknown loot table called minecraft:chests/simple_dungeon
+[01Zář2020 04:04:17.322] [Render thread/WARN] [net.minecraft.world.storage.loot.LootTableManager/]: Found validation problem in {artifacts:chests/campsite_chest}.pools[0].entries[0]: Unknown loot table called minecraft:chests/stronghold_library
